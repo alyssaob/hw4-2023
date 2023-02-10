@@ -138,6 +138,7 @@ nav a:focus, a:hover{
   display: grid; 
   grid-template-columns: 1fr 5fr 1fr;
   row-gap: 15px; 
+  column-gap: 15px;
 }
 
 /* Step 5: Write selector/rule property to add the background image to the 
@@ -223,11 +224,13 @@ first div in the grid  and place it in the grid. */
 
   .about, .clients, .method-image, .contact-image{
     grid-column: 3 / span 2;
+    /* max-height: 400px; */
+
   }
 
   .method, .contact, .about-image, .clients-image{
     grid-column: 2 / span 2;
-
+    /* max-height: 400px; */
   }
  /* Step 13:Write the selector/rule property to update the .text-block class */
   .text-block{
